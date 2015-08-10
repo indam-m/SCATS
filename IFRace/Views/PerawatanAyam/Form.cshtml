@@ -1,0 +1,114 @@
+﻿<div class="layer-hidden"></div>
+<div class="layer-hidden"></div>
+<div id="content-s" class="pa__padding">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-7 grid-center pa__box">
+      <div class="pa--heading">
+        <img src="@Url.Content("~/Content/img/ayam.png")">
+        Perawatan Ternak (Ayam)
+      </div>
+      Rawat ternak ayam Anda dengan mengubah keadaan-keadaan berikut ini:
+      <div class="form-horizontal pa__form">
+
+      <form action="~/perawatan-ayam/form-jendela" method="post">
+        <fieldset>
+        <div class="form-group">
+          <label class="col-md-3 control-label">Jendela</label>  
+          <div class="col-md-6">
+            <select class="form-control" name="jendela">
+              <option value="buka" selected>Buka</option>
+              <option value="tutup">Tutup</option>
+            </select>
+          </div>
+      
+          <div class="col-md-3">
+            <input type="submit" class="btn btn-tosca btn-margin-bottom" value="Lakukan" />
+          </div>
+        </div>
+        </fieldset>
+      </form>
+
+      <form action="~/perawatan-ayam/form-kipas-angin" method="post">
+      	<fieldset>
+        <div class="form-group">
+          <label class="col-md-3 control-label">Kipas Angin</label>
+          <div class="col-md-6">
+            <select id="kategori" name="kipas_angin" class="form-control">
+              <option value="nyala" selected>Nyalakan</option>
+              <option value="padam">Padamkan</option>
+            </select>
+            <p class="help-block help-block-custom"><div id="kelembaban"></div></p>
+            <p class="help-block help-block-custom"><div id="suhu"></div></p>
+          </div>
+          <div class="col-md-3">
+            <input type="submit" class="btn btn-tosca btn-margin-bottom" value="Lakukan" />
+          </div>
+        </div>
+        </fieldset>
+      </form>
+
+      <form action="~/perawatan-ayam/form-lampu" method="post">
+      	<fieldset>
+        <div class="form-group">
+          <label class="col-md-3 control-label">Lampu</label>  
+          <div class="col-md-6">
+            <select id="kategori" name="lampu" class="form-control">
+              <option value="nyala" selected>Nyalakan</option>
+              <option value="padam">Padamkan</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <input type="submit" class="btn btn-tosca btn-margin-bottom" value="Lakukan" />
+          </div>
+        </div>
+        </fieldset>
+      </form>
+
+      <form action="~/perawatan-ayam/form-minum" method="post">
+      	<fieldset>
+        <div class="form-group">
+          <label class="col-md-3 control-label">Minum</label>  
+          <div class="col-md-6">
+            <input type="submit" class="btn btn-tosca btn-margin-bottom" value="Isi Minum" />
+          </div>
+        </div>
+        </fieldset>
+      </form>
+
+      <form action="~/perawatan-ayam/form-pakan" method="post">
+      	<fieldset>
+        <div class="form-group">
+          <label class="col-md-3 control-label">Pakan</label>  
+          <!-- ga tega ngapusnya da bikinnya hese :((
+          <div class="col-md-8 container-rawat-isi">
+            <a class="btn btn-tosca btn-tosca-mini rawat-isi-pakan">Isi</a>
+          </div>
+          -->
+          <div class="col-md-6">
+          	<!--
+            <div class="checkbox">
+              <label>
+                @Html.CheckBox("pakan") Isi pakan
+              </label>
+            </div>
+            -->
+            <input type="submit" class="btn btn-tosca btn-margin-bottom" value="Isi pakan" />
+          </div>
+        </div>
+        </fieldset>
+      </form>
+
+        <div class="form-group">
+          <div class="col-md-11 pa__btn-container-form">
+            <a class="btn btn-red btn-margin-bottom" href="~/perawatan-ayam">Kembali</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="@Url.Content("~/Scripts/PerawatanAyamForm.js")"></script>
