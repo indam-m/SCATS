@@ -1,16 +1,10 @@
 ﻿<Properties StartupItem="IFRace/IFRace.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IFRace/Views/PerawatanStroberi/Form.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IFRace/Controllers/AyamController.cs">
     <Files>
-      <File FileName="IFRace/Content/css/main.css" Line="767" Column="24" />
-      <File FileName="IFRace/Models/Stroberi.cs" Line="9" Column="17" />
-      <File FileName="IFRace/Views/PerawatanAyam/Form.cshtml" Line="4" Column="30" />
-      <File FileName="IFRace/Views/PerawatanStroberi/Form.cshtml" Line="70" Column="7" />
-      <File FileName="IFRace/Scripts/PerawatanAyamForm.js" Line="16" Column="71" />
-      <File FileName="IFRace/Scripts/PerawatanStroberiForm.js" Line="16" Column="76" />
-      <File FileName="IFRace/Controllers/StroberiController.cs" Line="39" Column="21" />
-      <File FileName="IFRace/Controllers/PerawatanStroberiController.cs" Line="90" Column="38" />
-      <File FileName="IFRace/Scripts/PerawatanStroberi.js" Line="3" Column="17" />
+      <File FileName="IFRace/Views/PerawatanAyam/Index.cshtml" Line="105" Column="29" />
+      <File FileName="IFRace/Scripts/PerawatanAyam.js" Line="18" Column="19" />
+      <File FileName="IFRace/Controllers/AyamController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

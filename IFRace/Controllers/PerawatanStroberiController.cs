@@ -89,7 +89,7 @@ namespace IFRace.Controllers
 				StroberiController.myport.PortName = portname;
 				StroberiController.myport.Open();
 
-				StroberiController.myport.WriteLine("e");
+				StroberiController.myport.WriteLine("1");
 			}
 			catch (Exception)
 			{
